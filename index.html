@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="./images/favicon.png"/>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <label class="header_logo"><b style="font-size:2.2rem;">P</b>ort<b style="font-size:2.2rem;">F</b>olio</label>
+        <ul class="header_item">
+            <li class="item_1"><a href="#main">Home</a></li>
+            <li class="item_1"><a href="#project">Projects</a></li>
+            <li class="item_1"><a href="#skills">Skills</a></li>
+            <li class="item_1"><a href="#experience">Experience</a></li>
+            <li class="btn_cv_download"><button>Download CV</button></li>
+            
+        </ul>
+    </header>
+    <!-- header end -->
+    <!-- main section start -->
+    <main id="main">
+        <section class="main_section">
+            <img class="profile_image" rel="profile_image"src="./images/profile_img.png"/>
+        </section>
+     <section class="main_text">
+        
+        <center>
+            
+            <h4>Hello Everyone</h4>
+            <h2>I am Prasad magi</h2>
+            <h3><span class="main_text_auto">Student</span></h3>
+            <button class="main_btn_hireme">Hire Me</button>
+            
+        </center>
+        
+     <section>
+        
+    </main>
+ <!-- main section end here -->
+ <!-- project section start here -->
+    <project id="project">
+    <div class="container_1" >
+        <div class="card_row_1">
+            <img src="/images/p3.jpg" alt="image"/>
+            <div class="intro">
+                <h1>Project 1</h1>
+            </div>
+        </div>
+        <div class="card_row_1">
+            <img src="/images/p1.jpg" alt="image"/>
+            <div class="intro">
+                <h1>Project 2</h1>
+            </div>
+        </div>
+        <div class="card_row_1">
+            <img src="/images/p2.jpg" alt="image"/>
+            <div class="intro">
+                <h1>Project 3</h1>
+            </div>
+        </div>
+    </div>
+    </project>
+    <!-- project section end here -->
+    <!-- skill section start here -->
+    <skill id="skills">
+        <center>Skills</center>
+        <div class="skill_list">
+            <img class="skill_img" src="/images/html.png" alt="skill_image"/>
+            <img class="skill_img" src="/images/css.png" alt="skill_image"/>
+            <img class="skill_img" src="/images/js.png" alt="skill_image"/>
+            <img class="skill_img" src="/images/react.png" alt="skill_image"/>
+            <img class="skill_img" src="/images/java.png" alt="skill_image"/>
+            <img class="skill_img" src="/images/mongodb.png" alt="skill_image"/>
+            <img class="skill_img" src="/images/nodejs.png" alt="skill_image"/>
+        </div>
+    </skill>
+    <!-- skill section end here -->
+    <!-- experience section start here -->
+    <experience id="experience" class="exp">
+        <center><h2>Experience</h2></center>
+      <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nam.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nam.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nam.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nam.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nam.</li>
+        </ul>
+    </experience>
+    <!-- experience section end here -->
+    <!-- Footer section start here -->
+    <footer class="footer">
+        <center class="footer_text">@Copyright portfolio website 2022</center>
+        <center class="footer_contact">
+            <input type="eamil" placeholder="Enter your mail here" required/>
+            <button class="btn_contact" type="Submit">Submit</button>
+        </center>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".main_text_auto",{
+            strings:["Devloper","Engineer","Blogger"],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+        })
+    </script>
+</body>
+</html>
