@@ -8,7 +8,7 @@ This is the personal portfolio project. In which all personal details about me i
 Some button are used with animation using javascript. Also header, footer and section are designed with some box shadows.
 
 # Note:
-Please open this website in desktop only. iT give nice look only in desktop mode.
+Please open this website in desktop only. It will give nice look only in desktop mode.
 
 # Things used in website:
 * Html
